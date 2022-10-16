@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Practice Tests">
+    <parameter name="BROWSER" value="CHROME"/>
+    <parameter name="ENV" value="PROD"/>
+
+<!--    <test name="Login valid user 1">-->
+<!--        <parameter name="username" value="standard_user"/>-->
+<!--        <parameter name="password" value="secret_sauce"/>-->
+<!--        <parameter name="testType" value="positive"/>-->
+<!--        <classes>-->
+<!--            <class name="LoginTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Login valid user 2">-->
+<!--        <parameter name="username" value="problem_user"/>-->
+<!--        <parameter name="password" value="secret_sauce"/>-->
+<!--        <parameter name="testType" value="positive"/>-->
+<!--        <classes>-->
+<!--            <class name="LoginTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Login valid user 3">-->
+<!--        <parameter name="username" value="performance_glitch_user"/>-->
+<!--        <parameter name="password" value="secret_sauce"/>-->
+<!--        <parameter name="testType" value="positive"/>-->
+<!--        <classes>-->
+<!--            <class name="LoginTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Login invalid user 1">-->
+<!--        <parameter name="username" value="locked_out_user"/>-->
+<!--        <parameter name="password" value="secret_sauce"/>-->
+<!--        <parameter name="testType" value="negative"/>-->
+<!--        <parameter name="errorMessage" value="Epic sadface: Sorry, this user has been locked out."/>-->
+<!--        <classes>-->
+<!--            <class name="LoginTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Login invalid user 2">-->
+<!--        <parameter name="username" value="defdf"/>-->
+<!--        <parameter name="password" value="secret_sauce"/>-->
+<!--        <parameter name="testType" value="negative"/>-->
+<!--        <parameter name="errorMessage" value="Epic sadface: Username and password do not match any user in this service"/>-->
+<!--        <classes>-->
+<!--            <class name="LoginTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Login invalid user 3">-->
+<!--        <parameter name="username" value="performance_glitch_user"/>-->
+<!--        <parameter name="password" value="ewerwer"/>-->
+<!--        <parameter name="testType" value="negative"/>-->
+<!--        <parameter name="errorMessage" value="Epic sadface: Username and password do not match any user in this service"/>-->
+<!--        <classes>-->
+<!--            <class name="LoginTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Login invalid user 4">
+        <parameter name="username" value=""/>
+        <parameter name="password" value="ewerwer"/>
+        <parameter name="testType" value="negative"/>
+        <parameter name="errorMessage" value="Epic sadface: Username is required"/>
+        <classes>
+            <class name="LoginTests"/>
+        </classes>
+    </test>
+
+<!--    <test name="Logout user">-->
+<!--        <parameter name="username" value="standard_user"/>-->
+<!--        <parameter name="password" value="secret_sauce"/>-->
+<!--        <parameter name="testType" value="positive"/>-->
+<!--        <parameter name="logoutMessage" value="Login"/>-->
+<!--        <classes>-->
+<!--            <class name="LogoutTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Check and add Products">-->
+<!--        <parameter name="username" value="standard_user"/>-->
+<!--        <parameter name="password" value="secret_sauce"/>-->
+<!--        <parameter name="testType" value="positive"/>-->
+<!--        <parameter name="logoutMessage" value="Login"/>-->
+<!--        <classes>-->
+<!--            <class name="ProductsTest">-->
+<!--                <methods>-->
+<!--                    <exclude name="checkOut"></exclude>-->
+<!--                    <exclude name="checkMenu"></exclude>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Checkout the First user">-->
+<!--        <parameter name="username" value="standard_user"/>-->
+<!--        <parameter name="password" value="secret_sauce"/>-->
+<!--        <parameter name="testType" value="positive"/>-->
+<!--        <parameter name="logoutMessage" value="Login"/>-->
+<!--        <parameter name="firstName" value="Sasa"/>-->
+<!--        <parameter name="lastName" value="Stjepanovic"/>-->
+<!--        <parameter name="zipCode" value="21000"/>-->
+<!--        <classes>-->
+<!--            <class name="ProductsTest">-->
+<!--                <methods>-->
+<!--                    <exclude name="checkParametersOfFirstProduct"></exclude>-->
+<!--                    <exclude name="AddProductsAndCheckBasket"></exclude>-->
+<!--                    <exclude name="checkMenu"></exclude>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Checkout the Second user">-->
+<!--        <parameter name="username" value="standard_user"/>-->
+<!--        <parameter name="password" value="secret_sauce"/>-->
+<!--        <parameter name="testType" value="positive"/>-->
+<!--        <parameter name="logoutMessage" value="Login"/>-->
+<!--        <parameter name="firstName" value="Nikola"/>-->
+<!--        <parameter name="lastName" value="Petrovic"/>-->
+<!--        <parameter name="zipCode" value="21000"/>-->
+<!--        <classes>-->
+<!--            <class name="ProductsTest">-->
+<!--                <methods>-->
+<!--                    <exclude name="checkParametersOfFirstProduct"></exclude>-->
+<!--                    <exclude name="AddProductsAndCheckBasket"></exclude>-->
+<!--                    <exclude name="checkMenu"></exclude>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Check the visibility of Menu items">-->
+<!--        <parameter name="username" value="standard_user"/>-->
+<!--        <parameter name="password" value="secret_sauce"/>-->
+<!--        <parameter name="testType" value="positive"/>-->
+<!--        <parameter name="logoutMessage" value="Login"/>-->
+<!--        <classes>-->
+<!--            <class name="ProductsTest">-->
+<!--                <methods>-->
+<!--                    <exclude name="checkParametersOfFirstProduct"></exclude>-->
+<!--                    <exclude name="AddProductsAndCheckBasket"></exclude>-->
+<!--                    <exclude name="checkOut"></exclude>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+</suite>
+
+
+
+
+
